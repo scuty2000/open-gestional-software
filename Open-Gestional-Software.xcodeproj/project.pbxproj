@@ -15,6 +15,9 @@
 		C14CD1E81EE68C4B00028813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14CD1E61EE68C4B00028813 /* Main.storyboard */; };
 		C14CD1F31EE68C4B00028813 /* Open_Gestional_SoftwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14CD1F21EE68C4B00028813 /* Open_Gestional_SoftwareTests.swift */; };
 		C14CD1FE1EE68C4B00028813 /* Open_Gestional_SoftwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14CD1FD1EE68C4B00028813 /* Open_Gestional_SoftwareUITests.swift */; };
+		C1BE95671EF32F1700A6533D /* 1497578968_access-time.png in Resources */ = {isa = PBXBuildFile; fileRef = C1BE95661EF32F1700A6533D /* 1497578968_access-time.png */; };
+		C1C922991EE896F400181F42 /* Add Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C922981EE896F400181F42 /* Add Button.png */; };
+		C1C9229B1EE8979A00181F42 /* Remove Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C9229A1EE8979A00181F42 /* Remove Button.png */; };
 		C1E714991EE7EA9B00E125C3 /* LOGO-COWO849_retina-WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E714981EE7EA9B00E125C3 /* LOGO-COWO849_retina-WHITE.png */; };
 		C1E7149B1EE7F05D00E125C3 /* 1496840293_editor-drawer-collection-archive-glyph.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E7149A1EE7F05D00E125C3 /* 1496840293_editor-drawer-collection-archive-glyph.png */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,9 @@
 		C14CD1F91EE68C4B00028813 /* Open-Gestional-SoftwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-Gestional-SoftwareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14CD1FD1EE68C4B00028813 /* Open_Gestional_SoftwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_Gestional_SoftwareUITests.swift; sourceTree = "<group>"; };
 		C14CD1FF1EE68C4B00028813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BE95661EF32F1700A6533D /* 1497578968_access-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1497578968_access-time.png"; sourceTree = "<group>"; };
+		C1C922981EE896F400181F42 /* Add Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Button.png"; sourceTree = "<group>"; };
+		C1C9229A1EE8979A00181F42 /* Remove Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove Button.png"; sourceTree = "<group>"; };
 		C1E714981EE7EA9B00E125C3 /* LOGO-COWO849_retina-WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-COWO849_retina-WHITE.png"; sourceTree = "<group>"; };
 		C1E7149A1EE7F05D00E125C3 /* 1496840293_editor-drawer-collection-archive-glyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1496840293_editor-drawer-collection-archive-glyph.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +89,11 @@
 		C112B9281EE80BC0001C0558 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				C1BE95661EF32F1700A6533D /* 1497578968_access-time.png */,
 				C112B92D1EE80CE0001C0558 /* Home Button.png */,
 				C112B9311EE80E5E001C0558 /* Settings Button.png */,
+				C1C922981EE896F400181F42 /* Add Button.png */,
+				C1C9229A1EE8979A00181F42 /* Remove Button.png */,
 			);
 			name = Buttons;
 			sourceTree = "<group>";
@@ -261,11 +270,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C112B9321EE80E5E001C0558 /* Settings Button.png in Resources */,
+				C1BE95671EF32F1700A6533D /* 1497578968_access-time.png in Resources */,
 				C14CD1E51EE68C4B00028813 /* Assets.xcassets in Resources */,
 				C14CD1E81EE68C4B00028813 /* Main.storyboard in Resources */,
+				C1C9229B1EE8979A00181F42 /* Remove Button.png in Resources */,
 				C1E7149B1EE7F05D00E125C3 /* 1496840293_editor-drawer-collection-archive-glyph.png in Resources */,
 				C112B92E1EE80CE0001C0558 /* Home Button.png in Resources */,
 				C1E714991EE7EA9B00E125C3 /* LOGO-COWO849_retina-WHITE.png in Resources */,
+				C1C922991EE896F400181F42 /* Add Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RDX5JDVGK8;
 				INFOPLIST_FILE = "Open-Gestional-Software/Info.plist";
@@ -448,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RDX5JDVGK8;
 				INFOPLIST_FILE = "Open-Gestional-Software/Info.plist";
