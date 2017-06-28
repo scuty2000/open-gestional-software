@@ -8,7 +8,6 @@ target 'Open-Gestional-Software' do
   use_frameworks!
 
   # Pods for Open-Gestional-Software
-  pod 'MaterialComponents/Buttons'
 
   target 'Open-Gestional-SoftwareTests' do
     inherit! :search_paths
